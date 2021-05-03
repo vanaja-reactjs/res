@@ -1,0 +1,178 @@
+.r1{
+	border: 2px soild #add;
+	padding: 1%;
+	margin: 1%;
+	font-size: 25px;
+	text-align: center;
+	border-color: black;	
+	color:white;
+	background-image: url("td.jpg");
+	width:30%;
+}
+
+.r2{
+	color:white;
+	border: 2px soild #add;
+	padding: 1%;
+	margin: 1%;
+	font-size: 25px;
+	border-color: black;	
+	background-image:url("th.jpg");
+	width:60%;
+}
+
+
+.rview{
+	display: flex;
+	flex-direction: row;
+	padding: 1%;
+	margin: 1%;
+	justify-content: flex-start;
+	background-color: #ffffff;
+
+}
+
+img{
+	width: 70%;
+	border: 2px solid black;
+    border-radius: 50%;
+    
+}
+
+table{
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+	border:1px solid #ccc;
+}
+
+th,td{
+	text-align: left;
+	padding: 8px;
+	border:1px solid #ccc;
+
+}
+thead{
+	background-color:orange;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px)
+{
+
+.r1
+{
+	font-size: 25px;
+	border:2px solid #ddd;
+	padding:1%;
+	margin:1%;
+	text-align:center;
+		color:white;
+	background-image: url(th.jpg);
+	border-color: black;
+	width: 190%;
+}
+.r2
+{
+	border:2px solid #ddd;
+	padding: 1%;
+	font-size:25px;
+	margin:1%;
+	color:white;
+	border-color: black;
+	background-image: url(td.jpg);
+	width: 190%;
+}
+.rview
+{
+	display:flex;
+	flex-direction:column;
+padding: 1%;
+margin: 1%;
+justify-content: space-around;
+}
+img
+{
+width:50%;
+border:2px solid black;
+border-radius:50%;
+}
+table{
+	color:white;
+	border-collapse: collapse;
+	border-spacing:0;
+	border:1px solid #ccc;
+}
+td,th
+{
+	text-align: left;
+	padding: 8px;
+	border:1px solid #ccc;
+}
+thead{
+	background-color:orange;
+}
+}
+@media only screen and (min-width: 481px) and (max-width: 768px)
+{
+.r1{
+	font-size: 25px;
+	border:2px solid #ddd;
+	padding:1%;
+	margin:1%;
+	text-align: center;
+		color:white;
+	border-color:black;
+	background-image: url(td.jpg);
+width:95%;
+height: 10%;
+}
+.r2
+{
+	border:2px solid #ddd;
+	padding: 1%;
+	font-size:25px;
+	margin:1%;
+	color:white;
+	border-color: black;
+	background-image: url(th.jpg);
+width:95%;
+}
+.rview
+{
+	display:flex;
+	flex-direction:column;
+	flex-wrap: wrap;
+padding: 1%;
+margin:1%;
+justify-content: flex-start;
+}
+img
+{
+	border: 2px solid black;
+	border-radius: 50%;
+}
+.ima
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	float: left;
+	width:55%;
+}
+.tb
+{
+	width:45%;
+	float:right;
+	text-align: center;
+}
+table{
+	color:white;
+	border-collapse:collapse;
+	border-spacing: 0;
+	border: 1px solid #ccc;
+}
+thead
+{
+	background-color:orange;
+}
+}
